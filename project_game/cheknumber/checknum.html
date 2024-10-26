@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>игра Угадай число</title>
+</head>
+<body>
+    <h1>Игра Угадай число</h1>
+    <div class="wrapper">
+        <h3>Вводите свой вариант числа </h3>
+        <form action="">
+            <input id="inputnumber" type="number"> <br>
+            <input type="button" value="Проверить число" 
+            onclick="getValueFromInput(inputnumber)">
+        </form>
+        <div class="show_process">
+            <div id="message">
+                <!--будем добавлять вывод подсказок-->
+                <p id="helper"> Текст подсказки</p>
+               
+            </div>
+        </div>
+    </div>
+    <script src="code_cheknum.js"></script>
+</body>
+</html>
