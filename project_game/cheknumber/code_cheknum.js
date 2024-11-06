@@ -15,9 +15,9 @@ let secretnum = 34; /* Погуглить как сгенерировать сл
 let usernumber = 20; 
 /* напишем  функцию получения  числа из поля ввода*/
 function getValueFromInput(){
-    console.log('функция сработала')
+    // console.log('функция сработала')
     usernumber =  document.getElementById('inputnumber').value;
-    console.log(usernumber)
+    console.log(usernumber, "  комп загадал")
     /* вызываем функцию проверки числа и вывода сообщения */ 
     showHelper();
 }
