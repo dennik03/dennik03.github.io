@@ -1,0 +1,34 @@
+{
+    "name": "ships",
+    "version": "0.0.1",
+    "description": "Учим мультиплеерные игры",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "5.0.1"
+    },
+    "engines": {
+        "node": "16.x"
+    },
+    "repository": {
+        "url": "https://glitch.com/edit/#!/welcome-project"
+    },
+    "license": "MIT",
+    "keywords": [
+        "node",
+        "glitch",
+        "express"
+    ],
+    "comments": {
+        "версия Express в основе": "^4.15.2",
+        "dependencies": "we use jQuery because of reasons",
+        "repository": "our beloved repo",
+        "license": "we love MIT, so why not",
+        "devDependencies": {
+            "@babel/core": "it's @ version 7.2.2 because of...",
+            "gulp-rename": "why not"
+        }
+    }
+}
