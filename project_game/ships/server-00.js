@@ -1,8 +1,6 @@
-import express from 'express'; // Express - модуль для маршрутизации и обработки запросов от клиентов
+var express = require('express'); // Express contains some boilerplate to for routing and such
 var app = express();
 var http = require('http').Server(app);
-/* часть 2    */
-var io = require('socket.io')(http); // вставьте это после определения http 
 
 // Serve the index page 
 app.get("/", function (request, response) {

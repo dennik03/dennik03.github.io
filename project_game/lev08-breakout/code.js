@@ -34,7 +34,9 @@ for(var c=0; c<brickColumnCount; c++) {
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 
-function keyDownHandler(e) { // Функция перехвата нажатий на клавиши
+
+/**  Функция перехвата нажатий на клавиши */
+function keyDownHandler(e) { //
     if(e.code  == "ArrowRight") { // стрелка вправо
         rightPressed = true;
     }
